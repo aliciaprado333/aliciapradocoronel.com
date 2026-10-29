@@ -894,7 +894,7 @@ border: none; background: transparent; transition: transform 0.55s cubic-bezier(
 </div>
 
       <!-- ── OFFICES ── -->
-      <div class="project-row-two">
+      <div class="project-row">
         <!-- Project: Palomo Spain -->
         <div class="project-item" data-primary="interior" data-sub="offices" onclick="navigate('project-palomo')">
 <div class="proj-img-placeholder ph-sm" style="background:#2A2622"> 
@@ -907,9 +907,8 @@ border: none; background: transparent; transition: transform 0.55s cubic-bezier(
             <h2 class="project-title title-md" data-en="Palomo Spain Offices" data-es="Oficinas Palomo Spain">Palomo Spain Offices</h2>
             <p class="project-meta" data-en="Workplace Design · Sevilla" data-es="Diseño de Espacio de Trabajo · Sevilla">Workplace Design · Sevilla
           </div>
-        </div>
-</div>        
-        <!-- Project: Departamento de Historia -->
+  </div>
+          <!-- Project: Departamento de Historia -->
         <div class="project-item" data-primary="interior" data-sub="offices" onclick="navigate('project-chile')">
           <div class="proj-img-placeholder ph-sm" style="background:#28261E">
             <img src="OFICINAS/Despacho departamento historia - escuela de arte de sevilla/despacho 2.jpg"
@@ -922,14 +921,11 @@ border: none; background: transparent; transition: transform 0.55s cubic-bezier(
             <span class="project-tag tag-interior" data-en="Offices" data-es="Oficinas">Offices</span>
             <h2 class="project-title title-md" data-en="History Department — EASD Sevilla" data-es="Departamento de Historia — EASD Sevilla">History Department — EASD Sevilla</h2>
             <p class="project-meta" data-en="Institutional Design · Sevilla" data-es="Diseño Institucional · Sevilla">Institutional Design · Sevilla</p>
-          </div>
-        </div>
-      </div><!-- /project-row-two -->
-
+            </div>
+  </div>
+</div>
       <!-- ART DIRECTION -->
-       <div class="project-row"></div>
-    <div class="project-item" data-primary="film" data-sub="film" onclick="navigate('project-film')" style="margin-top:20px;">
-        <div class="proj-img-placeholder ph-lg">
+<div class="project-item" data-primary="film" data-sub="film" onclick="navigate('project-film')" style="margin-top:0;">        <div class="proj-img-placeholder ph-lg">
           <img src="DIRECCIÓN DE ARTE/cabecera.jpg" alt="Las 3000 Maravillas" class="project-img" style="width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;" />
         </div>
         <div class="project-arrow">↗</div>
@@ -940,11 +936,9 @@ border: none; background: transparent; transition: transform 0.55s cubic-bezier(
         </div>
       </div>
 <!-- ── CPH ── -->
-<div class="project-item" data-primary="cph" ...>
-  <!-- ── CPH ── -->
-<div class="project-item" data-primary="cph" data-sub="cph" onclick="navigate('project-cph')">
-  <div class="proj-img-placeholder ph-lg">
-    <img src="COPENHAGEN/foto principal.jpg" class="project-img" style="width:100%;height:100%;object-fit:cover;display:block;" alt="Copenhagen Internship"/>
+<div class="project-item" data-primary="cph" data-sub="cph" onclick="navigate('project-cph')" style="margin-top:0;">
+<div class="proj-img-placeholder ph-md">
+      <img src="COPENHAGEN/foto principal.jpg" class="project-img" style="width:100%;height:100%;object-fit:cover;display:block;" alt="Copenhagen Internship"/>
   </div>
   <div class="project-arrow">↗</div>
   <div class="project-overlay">
@@ -2432,8 +2426,6 @@ function closeLightbox() {
     document.querySelector('nav').style.background = projectPages.includes(pageId) ? '#ffffff' : '';
   }
 })();
-/* Hide CPH on load */
-document.querySelectorAll('.project-item[data-primary="cph"]').forEach(i => i.classList.add('hidden'));
 </script>
  
 <!-- ── PROYECTO: EXPOBELLEZA ── -->
